@@ -462,12 +462,9 @@
             <div class="dropdown-container">
                 <label>Please select a product I can help you with:</label>
                 <div class="dropdown-options">
-                    <div class="dropdown-option" data-value="lightspeed-filter">Lightspeed Filter</div>
-                    <div class="dropdown-option" data-value="lightspeed-insight">Lightspeed Insight</div>
-                    <div class="dropdown-option" data-value="lightspeed-alert">Lightspeed Alert</div>
-                    <div class="dropdown-option" data-value="lightspeed-classroom">Lightspeed Classroom</div>
-                    <div class="dropdown-option" data-value="lightspeed-signal">Lightspeed Signal</div>
-                    <div class="dropdown-option" data-value="lightspeed-mdm">Lightspeed MDM</div>
+                    <div class="dropdown-option" data-value="grant-services">Grant Services</div>
+                    <div class="dropdown-option" data-value="billing">Billing</div>
+                    <div class="dropdown-option" data-value="alumni-services">Alumni Services</div>
                 </div>
                 <button class="skip-selection">Skip for now</button>
             </div>
@@ -554,12 +551,9 @@
 
     function getProductName(productValue) {
         const productMap = {
-            'lightspeed-filter': 'Lightspeed Filter',
-            'lightspeed-insight': 'Lightspeed Insight',
-            'lightspeed-alert': 'Lightspeed Alert',
-            'lightspeed-classroom': 'Lightspeed Classroom',
-            'lightspeed-signal': 'Lightspeed Signal',
-            'lightspeed-mdm': 'Lightspeed MDM'
+            'grant-services': 'Grant Services',
+            'billing': 'Billing',
+            'alumni-services': 'Alumni Services'
         };
         return productMap[productValue] || productValue;
     }
